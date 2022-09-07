@@ -1,0 +1,22 @@
+def get_box ( items_per_box, items):
+  test_value = items / items_per_box
+  boxes = 0
+  if test_value >= 1:
+    boxes = int(test_value)
+    items = items - (boxes * items_per_box)
+  return items, boxes
+  
+user_input = int(input("how many items do you have? ")) # number of items user is wishing to put into boxes
+
+lg_box = 0
+md_box = 0
+sm_box = 0
+
+user_input, lg_box = get_box(5, user_input) #using a definition to sort the items through the boxes
+user_input, md_box = get_box(3, user_input)
+user_input, sm_box = get_box(1, user_input)
+
+print("Large Box: " + str(lg_box))
+print("Medium Box: " + str(md_box))
+print("Small Box: " + str(sm_box))
+print("Total Boxes: " + str(lg_box + md_box + sm_box))
