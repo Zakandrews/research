@@ -1,4 +1,4 @@
-def get_box ( items_per_box, items):
+def get_box ( items_per_box, items): # creating a definition
   test_value = items / items_per_box
   boxes = 0
   if test_value >= 1:
@@ -8,7 +8,7 @@ def get_box ( items_per_box, items):
   
 user_input = int(input("how many items do you have? ")) # number of items user is wishing to put into boxes
 
-lg_box = 0
+lg_box = 0 # base box amounts
 md_box = 0
 sm_box = 0
 
@@ -20,3 +20,5 @@ print("Large Box: " + str(lg_box))
 print("Medium Box: " + str(md_box))
 print("Small Box: " + str(sm_box))
 print("Total Boxes: " + str(lg_box + md_box + sm_box))
+
+#
