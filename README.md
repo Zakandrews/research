@@ -1,1 +1,8 @@
 # research
+All code is in python
+Bingo list:
+I made a bingo game but couldn't do normal bingo because there aren't multiple people so I had a preset bingo board and the user trying to guess the numbers that were on the board. first I put some numbers into a list so they would be removed once that number was guessed correctly. secondly I had to put the user inputs in the order I wanted them to come out aswell and providing an output in response.
+Box calculator:
+The box calculator is a calculator that sorts the chosen number of items into large, medium and small boxes. large boxes hold five items, medium boxes hold three items, and small boxes hold one item. The code prioritises the large box over the medium and small box and the medium box over the small box. First I had to make a definition that divides the items to fit into as many large boxes as possible while keeping the remainders for the medium boxs and the small boxes. Secondly I had to make a user input for the amount of items and set all the boxes to zero. I then used the definition to calculate the items into the boxes and finally print them out.
+Internet speed check
+I found this code interesting because it used a package called the speedtest module and I thought that this code imparticular could be useful aswell as the the code words themself. import was a phrase I was unfamiliar with in Python so i thought this would be something good to research and could allow me to make more useful code in the future. Import in Python is just importing other files of python into another code which creates a layer like coding system.
