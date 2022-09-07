@@ -1,1 +1,16 @@
 Print("Welcome to Bingo:)
+
+bng_lst = ["11", "12", "13", "14", "15", "16", "17", "18", "19", "20"] # bingo numbers on board
+
+i = str(input("press ENTER to play "))
+
+while bng_lst != []:
+  bingo_number = input("enter a number between 1 and 50 ") # user picked number to try to match with one of board
+  if bingo_number in bng_lst:
+    bng_lst.remove(bingo_number)
+    print("Hurray! your number has matched ")
+    if bng_lst == []:
+      print("BINGO!!! ") # all numbers have been matched
+  else:
+    Print("sorry your number has not been matched ") # user picked number was not one in the list
+    
